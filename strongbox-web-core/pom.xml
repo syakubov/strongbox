@@ -515,15 +515,6 @@
             <artifactId>swagger-core</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>ru.aristar.nuget</groupId>
-            <artifactId>jnuget-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>ru.aristar.nuget</groupId>
-            <artifactId>jnuget-server</artifactId>
-        </dependency>
-
         <!-- Testing frameworks -->
         <dependency>
             <groupId>org.springframework.security</groupId>
@@ -583,6 +574,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
 
     </dependencies>
